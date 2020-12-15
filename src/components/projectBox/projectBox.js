@@ -1,22 +1,18 @@
 import React from "react";
 import "./projectBox.scss";
 
-export const ProjectPanel = () => {
+export const ProjectPanel = ({ data }) => {
   return (
     <div className="project-container">
         <div className="project-panel">
-      <h3>Mu Building</h3>
-      <p>
-        Mu Building is a web application used for constructing a building using sdiv's.
-      </p>
+      <h3>{ data.displayName }</h3>
+      <p>{ data.desc }</p>
       <div className="tech-stack">
-          <div>HTML5</div>
-          <div>CSS3</div>
-          <div>Javascript</div>
+        { data.techStacks.map((ele,i)=><div key={i}>{ele}</div>) }
       </div>
       <div className="btn-container" >
-          <button>View Demo</button>
-          <button>Code</button>
+        <a href={data.repoLink} target="_blank" rel="noreferrer"><button>Code</button></a>
+        <a href={data.demoLink} target="_blank" rel="noreferrer"><button>View Demo</button></a>
       </div>
     </div>
     </div>

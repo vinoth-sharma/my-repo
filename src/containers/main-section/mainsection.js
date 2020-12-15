@@ -21,29 +21,32 @@ const projects = [
     displayName: "Mu Building",
     desc:
       " Mu Building is a web application used for constructing a building using div's.",
-    repoLink: "",
-    demoLink: "",
+    repoLink: "https://github.com/vinoth-sharma/mu-building",
+    demoLink: "https://mu-building.web.app/",
     techStacks: ["HTML5", "CSS3", "Javascript"],
+    status : "deployed"
   },  {
-    id: 1,
-    name: "Mu Sigma Building",
-    displayName: "Mu Building",
+    id: 2,
+    name: "Angular Multi Select",
+    displayName: "Multi Select",
     desc:
-      " Mu Building is a web application used for constructing a building using div's.",
-    repoLink: "",
-    demoLink: "",
-    techStacks: ["HTML5", "CSS3", "Javascript"],
+      "This multi select has implemented with search,select all features with material components.",
+    repoLink: "https://github.com/vinoth-sharma/ng-material-multiselect",
+    demoLink: "https://angular-multi-select.web.app/",
+    techStacks: ["HTML5", "CSS3", "Angular 9"],
+    status : "deployed"
   },  {
-    id: 1,
-    name: "Mu Sigma Building",
-    displayName: "Mu Building",
+    id: 3,
+    name: "Calendar",
+    displayName: "Calendar",
     desc:
-      " Mu Building is a web application used for constructing a building using div's.",
+      "My Calendar is developed with features like blacklisting dates,max-min dates.",
     repoLink: "",
     demoLink: "",
-    techStacks: ["HTML5", "CSS3", "Javascript"],
+    techStacks: ["HTML5", "CSS3", "Angular 9"],
+    status : "progress"
   },  {
-    id: 1,
+    id: 4,
     name: "Mu Sigma Building",
     displayName: "Mu Building",
     desc:

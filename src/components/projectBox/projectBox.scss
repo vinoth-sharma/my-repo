@@ -18,7 +18,6 @@
       background: #ddd92a;
       border-radius: 8px;
       padding: 7px;
-      /* margin: 53px; */
       font-size: 0.725rem;
       margin-right: 8px;
     }
@@ -35,6 +34,10 @@
     color: darkgrey;
     padding: 10px;
     margin-left: 8px;
+    cursor: pointer;
+  }
+  button:hover{
+    transform: scale(1.1);
   }
 }
 .project-container::before {
