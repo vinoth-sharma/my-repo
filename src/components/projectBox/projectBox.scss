@@ -1,0 +1,56 @@
+.project-container {
+  width: 300px;
+//   height: 220px;
+  background: inherit;
+  border-radius: 7px;
+  box-shadow: 2px 2px 9px 2px black;
+  margin :0px 30px 30px 0px;
+  // padding: 20px;
+  display: inline-block;
+  h3 {
+    margin: unset;
+    font-size: 1.25rem;
+  }
+  .tech-stack {
+    display: flex;
+    div {
+      color: black;
+      background: #ddd92a;
+      border-radius: 8px;
+      padding: 7px;
+      /* margin: 53px; */
+      font-size: 0.725rem;
+      margin-right: 8px;
+    }
+  }
+  .btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  button {
+    background: black;
+    border: unset;
+    border-width: unset;
+    color: darkgrey;
+    padding: 10px;
+    margin-left: 8px;
+  }
+}
+.project-container::before {
+  content: "";
+  width: 300px;
+  // height: 200px;
+  background: inherit;
+  position: absolute;
+  // left: -25px;
+  // right: 0;
+  // top: -25px;
+  // bottom: 0;
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+  filter: blur(10px);
+}
+.project-panel {
+  position: relative;
+  padding: 20px;
+}
