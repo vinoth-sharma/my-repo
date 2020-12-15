@@ -4,5 +4,23 @@
   padding: 20px;
   height: calc(100vh - 40px);
   position: sticky;
-    top: 0px;
+  top: 0px;
+  text-align: center;
+  .details{
+    padding-left: 15px;
+    border-left: 1px solid whitesmoke;
+    text-align: left;
+    h2{
+      margin: 25px 0px 0px;
+    }
+    p{
+      margin-top: 2px;
+    }
+    a{
+      color: unset;
+    }
+    a:hover{
+      color: black;
+    }
+  }
 }
