@@ -11,8 +11,17 @@ export const ProjectPanel = ({ data }) => {
         { data.techStacks.map((ele,i)=><div key={i}>{ele}</div>) }
       </div>
       <div className="btn-container" >
-        <a href={data.repoLink} target="_blank" rel="noreferrer"><button>Code</button></a>
-        <a href={data.demoLink} target="_blank" rel="noreferrer"><button>View Demo</button></a>
+        {
+          data.status === "deployed" ? (<>
+            <a href={data.repoLink} target="_blank" rel="noreferrer"><button>Code</button></a>
+            <a href={data.demoLink} target="_blank" rel="noreferrer"><button>View Demo</button></a>
+            </>)
+            : (<>
+              <button disabled>Code</button>
+              <button disabled>View Demo</button>
+              </>
+            )
+        }
       </div>
     </div>
     </div>

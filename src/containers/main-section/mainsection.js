@@ -33,7 +33,7 @@ const projects = [
       "This multi select has implemented with search,select all features with material components.",
     repoLink: "https://github.com/vinoth-sharma/ng-material-multiselect",
     demoLink: "https://angular-multi-select.web.app/",
-    techStacks: ["HTML5", "CSS3", "Angular 9"],
+    techStacks: ["Angular 9"],
     status : "deployed"
   },  {
     id: 3,
@@ -43,16 +43,17 @@ const projects = [
       "My Calendar is developed with features like blacklisting dates,max-min dates.",
     repoLink: "",
     demoLink: "",
-    techStacks: ["HTML5", "CSS3", "Angular 9"],
+    techStacks: ["Angular 6"],
     status : "progress"
   },  {
     id: 4,
-    name: "Mu Sigma Building",
-    displayName: "Mu Building",
+    name: "Image to JSON ",
+    displayName: "Image to JSON",
     desc:
-      " Mu Building is a web application used for constructing a building using div's.",
+      "This application accepts image from the user and convert the image into json.",
     repoLink: "",
     demoLink: "",
-    techStacks: ["HTML5", "CSS3", "Javascript"],
+    techStacks: ["Angular 9"],
+    status : "progress"
   },
 ];
