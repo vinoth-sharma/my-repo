@@ -10,6 +10,10 @@
   h3 {
     margin: unset;
     font-size: 1.25rem;
+    span{
+      font-size: 0.725rem;
+      color: red;
+    }
   }
   .tech-stack {
     display: flex;

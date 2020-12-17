@@ -35,8 +35,19 @@ const projects = [
     demoLink: "https://angular-multi-select.web.app/",
     techStacks: ["Angular 9"],
     status : "deployed"
-  },  {
+  },{
     id: 3,
+    name: "Image to JSON ",
+    displayName: "Image to JSON",
+    desc:
+      "This application accepts image from the user and convert the image into json.",
+    repoLink: "https://github.com/vinoth-sharma/image-to-json",
+    demoLink: "https://image2json.web.app/",
+    techStacks: ["Angular 9"],
+    status : "deployed"
+  },
+   {
+    id: 4,
     name: "Calendar",
     displayName: "Calendar",
     desc:
@@ -45,15 +56,5 @@ const projects = [
     demoLink: "",
     techStacks: ["Angular 6"],
     status : "progress"
-  },  {
-    id: 4,
-    name: "Image to JSON ",
-    displayName: "Image to JSON",
-    desc:
-      "This application accepts image from the user and convert the image into json.",
-    repoLink: "",
-    demoLink: "",
-    techStacks: ["Angular 9"],
-    status : "progress"
-  },
+  }, 
 ];

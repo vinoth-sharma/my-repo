@@ -5,7 +5,7 @@ export const ProjectPanel = ({ data }) => {
   return (
     <div className="project-container">
         <div className="project-panel">
-      <h3>{ data.displayName }</h3>
+      <h3>{ data.displayName } <span>{ data.status === "progress"?"In Progress":"" }</span> </h3>
       <p>{ data.desc }</p>
       <div className="tech-stack">
         { data.techStacks.map((ele,i)=><div key={i}>{ele}</div>) }
