@@ -51,9 +51,20 @@ const projects = [
     displayName: "Image to JSON",
     desc:
       "This application accepts image from the user and convert the image into json.",
-    repoLink: "",
-    demoLink: "",
+    repoLink: "https://github.com/vinoth-sharma/image-to-json",
+    demoLink: "https://image2json.web.app/",
     techStacks: ["Angular 9"],
-    status : "progress"
+    status : "deployed"
+  },
+   {
+    id: 5,
+    name: "JS Quiz",
+    displayName: "JS Quiz",
+    desc:
+      "Test your JS knowledge",
+    repoLink: "https://github.com/vinoth-sharma/js-quiz",
+    demoLink: "https://app-js-quiz.web.app/",
+    techStacks: ["React"],
+    status : "deployed"
   },
 ];
