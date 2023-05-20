@@ -66,5 +66,6 @@ const projects = [
     demoLink: "",
     techStacks: ["Angular 6"],
     status : "progress"
-  }, 
+  } 
+  
 ];
