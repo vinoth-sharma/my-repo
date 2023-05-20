@@ -45,9 +45,19 @@ const projects = [
     demoLink: "https://image2json.web.app/",
     techStacks: ["Angular 9"],
     status : "deployed"
+  },{
+    id: 4,
+    name: "Test Your JS Skill",
+    displayName: "JS Quiz",
+    desc:
+      "Test your JS Knowledge using the application.",
+    repoLink: "https://github.com/vinoth-sharma/js-quiz",
+    demoLink: "https://app-js-quiz.web.app/",
+    techStacks: ["React.Js"],
+    status : "deployed"
   },
    {
-    id: 4,
+    id: 5,
     name: "Calendar",
     displayName: "Calendar",
     desc:
